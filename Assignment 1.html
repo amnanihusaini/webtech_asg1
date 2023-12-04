@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+ <meta charset = "UTF-8">
+ <meta name = "viewport" content = "width = device-width, initial-scale 1.0"> 
+ <link rel="stylesheet" type ="text/css" href="asg1.css">
+ <title> Assignment 1 </title> 
+</head>
+
+<body>
+    <br>
+    <br>
+    <br>
+<section class="image">
+    <img src="logo_uiam.png"alt="ASSIGNMENT1" width="150" height="150"/>
+    
+</section>
+
+<section class="basicinfo">
+<h1>RM 1 Campaign</h1>
+<h3>Let your contributions be perpetual for the pleasure of Allah swt</h3>
+<p1>“The example of those who spend their wealth in the <br>
+    way of Allah is like a seed [of grain] which grows seven <br>
+    spikes; in each spike is a hundred grains. And Allah <br>
+    multiplies [His reward] for whom He wills. And Allah is <br>
+    all-Encompassing and Knowing.” <br>
+    Al Baqarah:261
+</p1>
+<br>
+<button type="button" class="joinus" onclick="scrollToSection()">Join Us</button>
+<br>
+<img src="donation.png"alt="ASSIGNMENT1" width="200" height="200"/>
+</section>
+
+<br>
+<br>
+<section class="salarydeductionform" id="salarydeductionform">
+        <p>Director <br>
+        IIUM Endowment Fund <br>
+        Level 3, Rectory Building <br>
+        International Islamic University Malaysia</p>
+        <br>
+
+        <h3>PARTICIPATION IN RM1 CAMPAIGN - MONTHLY SALARY DEDUCTION</h3>
+        <form action="/my-handling-form-page" method="post">
+        <p>
+            <label for="name">Name :</label>
+            <input type="text" id="name" name="staff_name" required/>
+        
+        <br> <br>
+            <label for="staffno">Staff No. :</label>
+            <input type="text" id="staffno" name="staff_no" required/>
+        <br> <br>
+            <label for="kcdio">K/C/D/I/O  :</label>
+            <input type="text" id="kcdio" name="staff_kcdio" required/>
+        <br> <br>
+            <label for="contactno">Contact No. :</label>
+            <input type="text" id="contactno" name="contact_no" required/>
+        <br> <br>
+            <label for="mail">Email:</label>
+            <input type="email" id="mail" name="staff_email" required/>
+        <br> <br>
+            <label for="deduct">Amount to be deducted  RM</label>
+            <input type="text" id="deduct" name="deducted_amount" required/>
+        <br>
+        <section class="period">
+            The above salary deduction will take effect from 
+            <input type="date" id="startDate" name="start_date">
+            until
+            <input type="date" id="endtDate" name="end_date">
+            or further notice.
+        </section>
+        <br>
+        <div class="container"></div>
+        <section class="signature-component">
+            <canvas id="signature-pad" width="400" height="200"></canvas>
+        
+            <div>
+              <button id="save">Save</button>
+              <button id="clear">Clear</button>
+              <p>Signature</p> <br>
+            </div>
+            <div class="flex-item">
+                <p id="today"></p>
+                <script>
+                    const d = new Date();
+                    document.getElementById("today").innerHTML = d;
+                  </script> 
+                Date</div> <br>
+          </div>
+         <section class="submit">
+        <class="button">
+            <button type="submit">Submit</button>
+       </section>
+           </p>
+            </form>
+        </section>
+</body>
+
+<footer>
+    <br>
+    <br>
+    <h3>CONTACT US</h3>
+    <h4>IIUM ENDOWMENT FUND <br>
+    Level 3, Rectory <br>
+        International Islamic University Malaysia <br>
+        P.O Box 110 <br>
+        50728 Kuala Lumpur <br>
+        Tel : 03 6196 4268 <br>
+        Email : ief@iium.edu.my <br>
+        Website : www.iium.edu.my/ief <br>
+    </h4>
+        <p>Facebook : www.facebook.com/ief.official/</p>  
+        <br>
+        <br>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+<script src="asg1.js"></script>
+
+</html>
+            
