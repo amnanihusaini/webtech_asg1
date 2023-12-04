@@ -10,6 +10,6 @@ Description
 
 References
 1. https://www.w3schools.com/html/html_images_background.asp
-2. https://www.w3schools.com/tags/att_input_type_date.asp#:~:text=The%20%3Cinput%20type%3D%22date,tag%20for%20best%20accessibility%20practices!
+2. https://www.w3schools.com/tags/att_input_type_date.asp#:~:text=The%20%3Cinput%20type%3D%22date,tag%20for%20best%20accessibility%20practices
 3. https://www.codewithfaraz.com/content/274/create-signature-pad-with-html-css-javascript-source-code
             
