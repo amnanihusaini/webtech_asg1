@@ -1,4 +1,8 @@
 # webtech_asg1
+AMIRAH AMNANI BINTI MOHD HUSHINI @ MOHD HUSAINI
+2215714
+SECTTION 2
+
 Description
 1. There is a join us button that will sroll down to the chosen section which is the monthly salary deduction form section.
 2. There is a canvas for the user to draw their signiture.
